@@ -1,0 +1,143 @@
+:root{
+
+--orange: #fcbe03;
+--orange2: #f0d177;
+--black: #080600;
+
+/* Primary colours*/
+
+--primary1: #fcbe03;
+--primary2:  #080600;
+--primary3:     #adadaa;
+
+}
+
+body{
+    
+    background-image: linear-gradient(to right, #ff9900, #ffcc6d, #f0e1af);
+    margin: 0.5%;
+}
+
+h1{
+
+    font-size: 40px;
+    font-weight: 600px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 300px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 200px;
+
+}
+
+p{
+    line-height: 100px;
+    font-size: 30px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    
+}
+
+
+label{
+    
+    font-size: 25px;
+    display: inline-block;
+    width: 200px;
+    
+}
+
+
+
+/* input */
+
+.input{
+    font-size: 16px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    padding: 0.75em 0.5em;
+    min-width: 200px;
+    border: none;
+    border-left: 7px solid var(--primary1);
+    transition: border-left-color 160ms;
+    background-color: white;
+    
+    
+
+    
+
+}
+
+::placeholder {
+    color: var(--primary1);
+  }
+
+  input:not(.btn):focus {
+    outline: none;
+    border-left: 7px solid var(--primary2);
+    color: #080600;
+  }
+
+  /*Navbar*/
+
+  .navbar{
+    padding: 10px;
+    box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.07),
+    0px -3px 7px 1px rgba(0, 0, 0, 0.07);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+  }
+
+.nav-band{
+    text-decoration-color: #080600;
+    
+}
+
+.table {
+    width: 22.5%;
+    border-collapse: collapse;
+  }
+
+/*  
+  .table thead {
+    background-color: var(--primary-1);
+    color: black;
+    border: 1px solid rgb(255, 255, 255,0.5);
+  }
+
+  .table th {
+    padding: 15px;
+  }
+  .table td {
+    padding: 10px;
+  }
+  
+  .table tbody {
+    font-size: 18px;
+    border: 1px solid rgb(245, 235, 235,0.5);
+  }
+  .table tbody tr:nth-child(2n) {
+    background-color: rgb(255, 255, 255, 0.6);
+  }
+  
+/*  .table tbody tr:nth-child(2n + 1) {
+    background-color: var(--neutral-5);
+  } */
+
+
+  
